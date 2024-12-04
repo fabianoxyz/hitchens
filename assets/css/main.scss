@@ -5,7 +5,7 @@
 
 $asset_url: '{{ '/assets' | absolute_url }}';
 
-@import 
+@import
   "reset",
   "variables",
   "syntax-highlighting",
@@ -18,3 +18,5 @@ $asset_url: '{{ '/assets' | absolute_url }}';
   "article",
   "footnotes",
   "search";
+
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');

@@ -23,3 +23,11 @@
     font-size: 3em;
   }
 }
+
+.site-masthead h3 {
+  color: $muted-text-color;
+  padding: 0 2rem;
+  @media (min-width: $on-tablet) {
+    font-size: 1.5em;
+  }
+}
